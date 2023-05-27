@@ -1,13 +1,11 @@
-package com.openbanking.openbanking;
+package io.betterbanking;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OpenBankingApplication {
-
+public class BetterBankingApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(OpenBankingApplication.class, args);
+		SpringApplication.run(BetterBankingApplication.class, args);
 	}
-
 }
